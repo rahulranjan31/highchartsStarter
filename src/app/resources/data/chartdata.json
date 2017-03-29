@@ -1,0 +1,10 @@
+[{
+    "name": "Project 1",
+    "data": [60, 70, 60, 70]
+}, {
+    "name": "Project 2",
+    "data": [50, 60, 70, 90]
+}, {
+    "name": "Project 3",
+    "data": [40, 80, 90, 60]
+}]
