@@ -1,3 +1,7 @@
 <div>
-    <chart [options]="options"></chart>
+    <chart [options]="options">
+    <series (mouseOver)="onSeriesMouseOver($event)">
+        </series>
+        </chart>
+         <p><b>{{serieName}}</b> is hovered<p>
 </div>
