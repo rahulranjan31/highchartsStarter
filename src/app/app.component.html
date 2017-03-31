@@ -1,7 +1,11 @@
 <div>
     <chart [options]="options">
     <series (mouseOver)="onSeriesMouseOver($event)">
+         <point (select)="onPointSelect($event)"></point>
         </series>
         </chart>
-         <p><b>{{serieName}}</b> is hovered<p>
+         <p><b>{{serieName}}</b> is hovered<p>    
+             <p><b>{{point}}</b> is selected<p>       
 </div>
+
+<div (click)="downloadFile()"> Download </div>
